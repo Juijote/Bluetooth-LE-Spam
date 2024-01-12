@@ -118,51 +118,51 @@ class StartFragment : Fragment() {
 
             when(advertisementTarget){
                 AdvertisementTarget.ADVERTISEMENT_TARGET_ANDROID -> {
-                    titleTextView.text = "Fast Pair"
-                    targetTextView.text = "Target: Android"
-                    distanceTextView.text = "Distance: Close"
+                    titleTextView.text = "快速配对"
+                    targetTextView.text = "目标: 安卓"
+                    distanceTextView.text = "距离: 关闭"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.ic_android, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_IOS -> {
-                    titleTextView.text = "Continuity"
-                    targetTextView.text = "Target: iOS"
-                    distanceTextView.text = "Distance: Mixed"
+                    titleTextView.text = "连续性"
+                    targetTextView.text = "目标: iOS"
+                    distanceTextView.text = "距离: 混合"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.apple, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_SAMSUNG -> {
-                    titleTextView.text = "Easy Setup"
-                    targetTextView.text = "Target: Samsung"
-                    distanceTextView.text = "Distance: Close"
+                    titleTextView.text = "轻松设置"
+                    targetTextView.text = "目标: 三星"
+                    distanceTextView.text = "距离: 关闭"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.samsung, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_WINDOWS -> {
-                    titleTextView.text = "Swift Pair"
-                    targetTextView.text = "Target: Windows"
-                    distanceTextView.text = "Distance: Close"
+                    titleTextView.text = "快速配对"
+                    targetTextView.text = "目标: Windows"
+                    distanceTextView.text = "距离: 关闭"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.microsoft, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_KITCHEN_SINK -> {
                     titleTextView.text = "Kitchen Sink"
-                    targetTextView.text = "Target: All"
-                    distanceTextView.text = "Distance: Mixed"
+                    targetTextView.text = "目标: All"
+                    distanceTextView.text = "距离: 混合"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.shuffle, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_UNDEFINED -> {
                     titleTextView.text = "Undefined"
-                    targetTextView.text = "Target: undefined"
-                    distanceTextView.text = "Distance: Undefined"
+                    targetTextView.text = "目标: undefined"
+                    distanceTextView.text = "距离: Undefined"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.ic_info, AppContext.getContext().theme))
                 }
 
                 AdvertisementTarget.ADVERTISEMENT_TARGET_LOVESPOUSE -> {
                     titleTextView.text = "Lovespouse"
-                    targetTextView.text = "Target: Lovespouse"
-                    distanceTextView.text = "Distance: Far"
+                    targetTextView.text = "目标: Lovespouse"
+                    distanceTextView.text = "距离: Far"
                     iconImageView.setImageDrawable(resources.getDrawable(R.drawable.heart, AppContext.getContext().theme))
                 }
             }
@@ -288,11 +288,11 @@ class StartFragment : Fragment() {
               startFragmentMissingRequirementsTextView.visibility = View.GONE
               //textViewRequirementsDescription.visibility = View.GONE
               startFragmentMissingRequirementsTextView.text = ""
-              textViewRequirementsDescription.text = "All requirements are met"
+              textViewRequirementsDescription.text = "满足所有要求"
           } else {
               startFragmentMissingRequirementsTextView.visibility = View.VISIBLE
               //textViewRequirementsDescription.visibility = View.VISIBLE
-              textViewRequirementsDescription.text = "Missing Requirements:"
+              textViewRequirementsDescription.text = "缺少要求:"
               var prepend = ""
               var missingRequirementsString = ""
               missingRequirementsList.forEach {missingRequirement ->

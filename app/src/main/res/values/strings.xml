@@ -1,54 +1,54 @@
 <resources>
     <!-- Keep that commented out. It will lead to compile errors -->
     <!--<string name="app_name">Bluetooth LE Spam</string>-->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">打开导航菜单</string>
+    <string name="navigation_drawer_close">关闭导航菜单</string>
     <string name="nav_header_title">Bluetooth LE Spam</string>
     <string name="nav_header_subtitle">github.com/simondankelmann</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="action_set_tx_power">TX Power</string>
+    <string name="action_settings">设置</string>
+    <string name="action_set_tx_power">发射功率</string>
 
-    <string name="menu_preferences">Settings</string>
-    <string name="menu_start">Start</string>
-    <string name="menu_spam_detector">Spam Detector</string>
-    <string name="menu_advertisement">Advertisement</string>
+    <string name="menu_preferences">设置</string>
+    <string name="menu_start">开始</string>
+    <string name="menu_spam_detector">垃圾信息检测器</string>
+    <string name="menu_advertisement">广告</string>
 
-    <string name="menu_fastPairing">Google Fast Pairing</string>
-    <string name="menu_swiftPair">Microsoft Swift Pairing</string>
-    <string name="menu_continuityDevicePopup">Apple Device Popups</string>
-    <string name="menu_continuityActionModal">Apple Action Modals</string>
-    <string name="menu_kitchenSink">Kitchen Sink (Randomize all)</string>
+    <string name="menu_fastPairing">谷歌快速配对</string>
+    <string name="menu_swiftPair">微软 swift 配对</string>
+    <string name="menu_continuityDevicePopup">苹果设备弹出窗口</string>
+    <string name="menu_continuityActionModal">苹果 Action Modal</string>
+    <string name="menu_kitchenSink">Kitchen Sink (全部随机)</string>
 
     <string name="preference_key_use_legacy_advertising">preferenceKeyUseLegacyAdvertising</string>
     <string name="preference_key_interval_advertising_queue_handler">preferenceKeyIntervalAdvertisingQueueHandler</string>
-    <string name="preference_title_use_legacy_advertising">Legacy Advertising</string>
-    <string name="preference_summary_use_legacy_advertising">Use Bluetooth 4 Compatible BLE Advertising</string>
+    <string name="preference_title_use_legacy_advertising">传统广告</string>
+    <string name="preference_summary_use_legacy_advertising">使用兼容蓝牙 4 的 BLE 广告</string>
 
     <string-array name="spinner_entries_tx_power">
-        <item name="tx_power_high">High</item>
-        <item name="tx_power_medium">Medium</item>
-        <item name="tx_power_low">Low</item>
-        <item name="tx_power_ultralow">Ultra Low</item>
+        <item name="tx_power_high">高</item>
+        <item name="tx_power_medium">中</item>
+        <item name="tx_power_low">低</item>
+        <item name="tx_power_ultralow">超低</item>
     </string-array>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_settings">设置活动</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
+    <string name="messages_header">信息</string>
+    <string name="sync_header">同步</string>
 
-    <string name="startfragment_requirements_checking">Checking Requirements...</string>
+    <string name="startfragment_requirements_checking">检查要求...</string>
 
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
+    <string name="signature_title">你的签名</string>
+    <string name="reply_title">默认回复操作</string>
 
     <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    <string name="sync_title">定期同步电子邮件</string>
+    <string name="attachment_title">下载传入的附件</string>
+    <string name="attachment_summary_on">自动下载传入电子邮件的附件
     </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_off">仅在手动请求时下载附件</string>
 </resources>
